@@ -1,0 +1,7 @@
+bind_address: 127.0.0.1:8080
+
+routes:
+  - path: /iptv # route on m3u-proxy, i.e. http://127.0.0.1/iptv
+    sourceUrl: https://host/path/to/your/iptv.m3u # URL to your m3u file you want to proxy
+    urlPattern: "http.*" # regex pattern to match URLs
+    rewriteUrl: "prefix $0 suffix" # what the URL should look like after rewriting, $0 is the original URL
