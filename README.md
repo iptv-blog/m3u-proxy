@@ -4,7 +4,7 @@ It allows simple rewriting of the m3u-urls by configuration.
 
 # Installation
 ## With prebuilt binary
-A prebuilt ubuntu binary can be downloaded from the [releases](releases) page.
+A prebuilt ubuntu binary can be downloaded from the [releases](https://github.com/iptv-blog/m3u-proxy/releases) page.
 
 ## With Docker
 ```bash
